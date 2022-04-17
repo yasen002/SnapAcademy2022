@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./NavBar.scss";
-import HamburgerMenu from "./layout/HamburgerMenu";
+import HamburgerMenu from "./HamburgerMenu";
 
 export default function NavBar() {
   const navbarRef = useRef(null);

@@ -22,3 +22,6 @@ Assesment Aspects:
 12. Nav bar and multiple pages
 13. Useage of a CSS or Javascript library
 14. use web dev framework: React 
+
+
+initial mobile UI design at: [embed]https://drive.google.com/file/d/1A-uuQ1mZVyd7ZO4QoC5vM4kl1Dtj_vjt/view?usp=sharing[embed]

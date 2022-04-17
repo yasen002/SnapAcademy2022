@@ -1,0 +1,52 @@
+@import "../style/variables";
+
+.popular-items {
+  min-height: 95vh;
+  width: 100vw;
+  padding: 2rem;
+  &--title.section-header {
+    margin: 2rem 0;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    color: $secondary-color;
+  }
+  &--container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(31rem, 1fr));
+    justify-items: center;
+    gap: 2rem;
+    &--item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      // width: 31rem;
+      height: 14rem;
+      padding: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      border-radius: 1.5rem;
+      &:hover {
+        transition: ease-in 0.3s;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      }
+
+      &__desc {
+        ~ p {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+      }
+
+      img {
+        height: 90px;
+        border-radius: 1rem;
+        margin-right: 1rem;
+      }
+    }
+  }
+  .btn-primary {
+    margin-left: 3rem;
+    margin-top: 5rem;
+  }
+}

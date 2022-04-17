@@ -1,0 +1,28 @@
+@import "../style/variables";
+
+.nav-bar {
+  // background-color: #f5f6fa;
+  position: absolute;
+  height: 5rem;
+  padding: 1rem;
+  width: 100vw;
+  transition: ease 0.4s;
+}
+
+.nav-bar.sticky {
+  background-color: #fff;
+  position: fixed;
+  z-index: 1;
+  h1 {
+    color: $secondary-color__dark;
+  }
+}
+
+h1 {
+  width: 100%;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+  color: $primary-color__light;
+  text-align: left;
+}

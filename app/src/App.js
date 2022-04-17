@@ -1,9 +1,9 @@
-import "./App.css";
-import HamburgerMenu from "./components/layout/HamburgerMenu.jsx";
+import "./style/App.css";
+import NavBar from "./components/NavBar.jsx";
 function App() {
   return (
     <div className="App">
-      <HamburgerMenu />{" "}
+      <NavBar />
     </div>
   );
 }

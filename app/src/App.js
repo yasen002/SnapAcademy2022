@@ -1,21 +1,15 @@
 import React from "react";
 import "./style/App.css";
-import NavBar from "./components/layout/NavBar.jsx";
-import Landing from "./components/Landing";
-import PopularItems from "./components/PopularItems";
-import SpecialDeals from "./components/SpecialDeals";
-import PromoteItem from "./components/PromoteItem";
-import Footer from "./components/layout/Footer";
-
+import Home from "./components/Home";
+import About from "./components/About";
+import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Landing />
-      <PopularItems />
-      <SpecialDeals />
-      <PromoteItem />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+      </Routes>
     </div>
   );
 }

@@ -64,7 +64,7 @@
 /* ---------landing-page--delivery--vendors ---------------- */
 .landing-page--delivery {
   width: 95vw;
-  max-width: 450px;
+  // max-width: 450px;
   margin: 0 auto;
   position: absolute;
   top: 80%;
@@ -82,9 +82,9 @@
   }
   &--vendors {
     img {
-      height: 35px;
+      height: 3.5rem;
       margin-right: 1.5rem;
-      border-radius: 1rem;
+      border-radius: 10px;
       transition: 0.4s;
       animation: moveInBottom 0.5s ease-out 1.3s;
       animation-fill-mode: backwards;
@@ -137,5 +137,15 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (min-width: 1200px) {
+  .landing-page {
+    background-image: linear-gradient(
+        rgba($secondary-color, 0.9),
+        rgba($secondary-color, 0.9)
+      ),
+      url(../assets/img/first-page-bg-lg.png);
   }
 }

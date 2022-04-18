@@ -27,10 +27,18 @@ export default function Landing() {
       <section className="landing-page--delivery">
         <p>We Deliver</p>
         <div className="landing-page--delivery--vendors">
-          <img src={uberEats_img} alt="uberEats delivery" />
-          <img src={doordash_img} alt="Doordash delivery" />
-          <img src={postmate_img} alt="PostMate delivery" />
-          <img src={grubhub_img} alt="GrubHub delivery" />
+          <a href="https://www.doordash.com/" alt="doordash">
+            <img src={doordash_img} alt="Doordash delivery" />
+          </a>
+          <a href="https://www.ubereats.com/" alt="Uber Eats">
+            <img src={uberEats_img} alt="uberEats delivery" />
+          </a>
+          <a href="https://postmates.com/" alt="postmate">
+            <img src={postmate_img} alt="PostMate delivery" />
+          </a>
+          <a href="https://www.grubhub.com/" alt="grubhub">
+            <img src={grubhub_img} alt="GrubHub delivery" />
+          </a>
         </div>
       </section>
     </div>

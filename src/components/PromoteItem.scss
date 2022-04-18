@@ -1,0 +1,51 @@
+@import "../style/variables";
+
+.promote-item {
+  width: 100vw;
+  min-height: 95vh;
+  padding: 2rem;
+  p.section-header {
+    margin: 2rem 0;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 700;
+    color: $secondary-color;
+  }
+  > div {
+    position: relative;
+    margin: 0 auto;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      margin-top: 5rem;
+      width: 100%;
+      border-radius: 15px;
+    }
+  }
+  &--desc {
+    margin-top: 3rem;
+    &.heading-secondary {
+      display: block;
+      font-size: 1.5rem;
+      font-weight: 400;
+      letter-spacing: 0.3rem;
+      line-height: 1.6;
+    }
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .promote-item {
+    > div {
+      max-width: 60vw;
+      img {
+        content: url("../assets/img/vege_skewer-lg.png");
+      }
+    }
+  }
+}

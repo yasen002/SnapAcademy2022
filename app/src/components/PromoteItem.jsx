@@ -9,7 +9,7 @@ export default function PromoteItem() {
         Build your healthy delicious meal
       </p>
       <div>
-        <img src={promoteItem__img}></img>
+        <img src={promoteItem__img} alt="promoted item"></img>
         <p className="promote-item--desc heading-secondary">
           Who can resist food on sticks? All stixs are made fresh to order. With
           select choices of meats, veggies, tofu and seafood.

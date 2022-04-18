@@ -4,6 +4,7 @@ import Landing from "./components/Landing";
 import PopularItems from "./components/PopularItems";
 import SpecialDeals from "./components/SpecialDeals";
 import PromoteItem from "./components/PromoteItem";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <PopularItems />
       <SpecialDeals />
       <PromoteItem />
+      <Footer />
     </div>
   );
 }

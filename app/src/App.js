@@ -3,6 +3,7 @@ import NavBar from "./components/layout/NavBar.jsx";
 import Landing from "./components/Landing";
 import PopularItems from "./components/PopularItems";
 import SpecialDeals from "./components/SpecialDeals";
+import PromoteItem from "./components/PromoteItem";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Landing />
       <PopularItems />
       <SpecialDeals />
+      <PromoteItem />
     </div>
   );
 }

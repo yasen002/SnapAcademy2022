@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import ButtonPrimary from "./ButtonPrimary";
 import "./PopularItems.scss";
 
@@ -13,7 +14,11 @@ export default function PopularItems() {
         {items &&
           items.map((item) => {
             return (
-              <div key={item.id} className="popular-items--container--item">
+              <a
+                href="/order"
+                key={item.id}
+                className="popular-items--container--item"
+              >
                 <img src={item.img} alt={item.title} />
                 <div className="popular-items--container--item__desc">
                   <h3>{item.title}</h3>
@@ -22,7 +27,7 @@ export default function PopularItems() {
                 <p>
                   <span>&#62;</span>
                 </p>
-              </div>
+              </a>
             );
           })}
       </div>

@@ -7,7 +7,9 @@ import { Routes, Route } from "react-router-dom";
 import Menu from "./components/Menu";
 function App() {
   useEffect(() => {
-    window.alert("This is not an Official Stix & Straw Restaurant website.");
+    window.alert(
+      "This is not an Official Stix & Straw Restaurant website. For the actual restaurant website please visit: https://stixandstraws.com/ "
+    );
   }, []);
 
   return (

@@ -1,3 +1,4 @@
+import React from "react";
 import "./style/App.css";
 import NavBar from "./components/layout/NavBar.jsx";
 import Landing from "./components/Landing";

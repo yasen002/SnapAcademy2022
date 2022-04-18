@@ -1,5 +1,6 @@
 import React from "react";
+import Layout from "./layout/Layout";
 
 export default function About() {
-  return <div>This is About page</div>;
+  return <Layout>About page</Layout>;
 }

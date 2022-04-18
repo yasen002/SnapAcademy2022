@@ -1,5 +1,6 @@
 import React from "react";
 import "./Landing.scss";
+
 import uberEats_img from "../assets/img/delivery/uberEats.png";
 import doordash_img from "../assets/img/delivery/doordash.png";
 import postmate_img from "../assets/img/delivery/postmate.png";
@@ -21,7 +22,7 @@ export default function Landing() {
           {/* <a href="#" className="btn-primary btn-animated">
             Order Online
           </a> */}
-          <ButtonPrimary>Order Online</ButtonPrimary>
+          <ButtonPrimary ur="/order">Order Online</ButtonPrimary>
         </div>
       </header>
       <section className="landing-page--delivery">

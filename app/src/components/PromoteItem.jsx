@@ -14,7 +14,7 @@ export default function PromoteItem() {
           Who can resist food on sticks? All stixs are made fresh to order. With
           select choices of meats, veggies, tofu and seafood.
         </p>
-        <ButtonPrimary>Order Now</ButtonPrimary>
+        <ButtonPrimary ur="/order">Order Now</ButtonPrimary>
       </div>
     </section>
   );

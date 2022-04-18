@@ -1,7 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import "./PopularItems.scss";
 import ButtonPrimary from "./ButtonPrimary";
+import "./PopularItems.scss";
+
 export default function PopularItems() {
   const items = useSelector((state) => state.popularItems);
   console.log(items);
@@ -25,7 +26,9 @@ export default function PopularItems() {
             );
           })}
       </div>
-      <ButtonPrimary animated={false}>View Full Menu</ButtonPrimary>
+      <ButtonPrimary animated={false} ur="/menu">
+        View Full Menu
+      </ButtonPrimary>
     </section>
   );
 }

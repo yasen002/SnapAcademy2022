@@ -14,7 +14,7 @@ export default function SpecialDeals() {
             We extended our opening hours! Come by our stores and check out our
             special saturday deals
           </p>
-          <ButtonPrimary>Saturday Deals</ButtonPrimary>
+          <ButtonPrimary ur="/menu">Saturday Deals</ButtonPrimary>
         </div>
         <section className="store-hours">
           <p className="section-header">Hours</p>

@@ -1,4 +1,4 @@
-$primary-color: rgba(13, 110, 139, 0.75);
+@import "../../style/variables";
 $overlay-color: rgba(24, 39, 51, 0.85);
 $menu-speed: 0.55s;
 $menu-size: 5rem;
@@ -102,7 +102,7 @@ $menu-size: 5rem;
     justify-content: center;
 
     > div {
-      background: $overlay-color;
+      background: $primary-color__dark;
       border-radius: 50%;
       width: 200vw;
       height: 200vw;
@@ -129,6 +129,12 @@ $menu-size: 5rem;
               color: inherit;
               text-decoration: none;
               transition: color 0.4s ease;
+              line-height: 2;
+              transition: all 0.3s ease;
+              padding: 1rem 2rem;
+              &:hover {
+                background-color: $secondary-color__dark;
+              }
             }
           }
         }

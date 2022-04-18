@@ -1,7 +1,6 @@
 @import "../../style/variables";
 
 .nav-bar {
-  // background-color: #f5f6fa;
   position: absolute;
   height: 5rem;
   padding: 1rem;
@@ -10,7 +9,7 @@
 }
 
 .nav-bar.sticky {
-  background-color: #fff;
+  background-color: $primary-color;
   position: fixed;
   z-index: 1;
   h1 {

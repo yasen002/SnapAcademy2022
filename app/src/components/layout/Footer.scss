@@ -11,12 +11,12 @@
 
 footer {
   width: 100vw;
-  height: 25vh;
+  min-height: 35vh;
   background-color: $primary-color;
   .more-info {
     padding-left: 10rem;
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     display: grid;
     align-content: space-around;
     grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
@@ -41,6 +41,7 @@ footer {
     }
   }
   .work-credit {
+    height: 10vh;
     hr {
       border: 1px solid black;
     }
@@ -48,6 +49,10 @@ footer {
       @include footerTextUpper;
       text-align: center;
       margin-top: 1rem;
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
     }
   }
 }

@@ -32,7 +32,11 @@ export default function Footer() {
       </div>
       <div className="work-credit">
         <hr />
-        <p>Terms of Use | Copyright | Author</p>
+        <p>
+          <a href="https://stixandstraws.com/privacy-policy/">Terms of Use</a> |
+          <a href="https://github.com/yasen002"> ©Copyright</a> |
+          <a href="https://github.com/yasen002">Author</a>
+        </p>
       </div>
     </footer>
   );

@@ -1,5 +1,7 @@
 import React from "react";
 import "./HamburgerMenu.scss";
+import { Link } from "react-router-dom";
+
 export default function HamburgerMenu() {
   return (
     <div className="container">
@@ -16,7 +18,7 @@ export default function HamburgerMenu() {
                   <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#">About Us</a>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li>
                   <a href="#">Menu</a>

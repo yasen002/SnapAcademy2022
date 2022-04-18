@@ -16,10 +16,10 @@ export default function HamburgerMenu() {
                   <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#">About</a>
+                  <a href="#">About Us</a>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                  <a href="#">Menu</a>
                 </li>
                 <li>
                   <a href="#">Contact</a>

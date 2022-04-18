@@ -1,6 +1,7 @@
 @import "../style/variables";
-
+$aboutUs-image-size: 1000px;
 .about {
+  width: 100vw;
   min-height: 95vh;
   padding-top: 6.5vh;
   .section-header {
@@ -14,7 +15,7 @@
   }
   &--value {
     width: 100%;
-    min-height: 300px;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,9 +30,12 @@
       line-height: 2;
     }
   }
-
+  &--hero {
+    max-width: $aboutUs-image-size;
+    margin: 0 auto;
+  }
   img {
-    width: 100vw;
+    max-width: 100%;
     background-size: cover;
     background-position: top;
   }

@@ -15,16 +15,16 @@ export default function HamburgerMenu() {
             <div>
               <ul>
                 <li>
-                  <a href="#">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
                   <Link to="/about">About Us</Link>
                 </li>
                 <li>
-                  <a href="#">Menu</a>
+                  <Link to="/menu">Menu</Link>
                 </li>
                 <li>
-                  <a href="#">Contact</a>
+                  <Link to="/order">Place Order</Link>
                 </li>
               </ul>
             </div>

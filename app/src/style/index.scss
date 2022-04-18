@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?\family=Montserrat:wght@500&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -5,9 +7,7 @@
 }
 
 html {
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", "Roboto", sans-serif;
   font-size: 10px;
 }
 
@@ -17,17 +17,27 @@ body {
   overflow-x: hidden;
 }
 
-@media (min-width: 576px) {
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
+  html {
+    font-size: 12px;
+  }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   html {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
 }

@@ -79,6 +79,14 @@
   }
 }
 
+@media (min-width: 992px) {
+  .store-hours {
+    max-width: 40rem;
+  }
+  .special-deals--deal-desc {
+    max-width: 40rem;
+  }
+}
 @media (min-width: 1200px) {
   .special-deals {
     background-image: linear-gradient(

@@ -6,7 +6,6 @@ import "./PopularItems.scss";
 
 export default function PopularItems() {
   const items = useSelector((state) => state.popularItems);
-  console.log(items);
   return (
     <section className="popular-items">
       <h2 className="popular-items--title section-header">Popular Items</h2>

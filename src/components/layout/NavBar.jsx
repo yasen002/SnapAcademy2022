@@ -5,7 +5,6 @@ import HamburgerMenu from "./HamburgerMenu";
 export default function NavBar() {
   const navbarRef = useRef(null);
   useEffect(() => {
-    console.log(window.scrollY);
     window.addEventListener("scroll", () => {
       navbarRef.current.classList.toggle("sticky", window.scrollY > 0);
     });
